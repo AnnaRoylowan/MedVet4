@@ -1,80 +1,152 @@
-body,ul,p,h1,h2,h3{
+body {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    font-family: "jost" sans-serif;
+    color: #3A2E2E;
 
 }
-ul{
+
+ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
-a{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
     text-decoration: none;
 }
-.container{
-    width: 1120px;
-    margin: auto ;
+
+.container {
+    width: 1107;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-.header{
-    padding-top: 32px;
+
+
+.header {
     background-color: #DDF9FF;
-;
-    padding-bottom: 27px; 
+    padding-top: 32px;
+    padding-bottom: 48px;
 }
-.header-list{
+
+.header-wrap {
     display: flex;
-    gap: 64px;
+    gap: 193px;
+    align-items: center;
 }
-.header-container{
+
+
+.header-img {
+    margin: 90px;
+}
+
+.header-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header-link{
+    width: 717px;
     font-size: 24px;
-    color: black;
-    font-weight: 700px;
+    font-weight: 700;
 
 }
-.hero{
+
+.header-banner {
+    display: flex;
+    gap: 57px;
+    align-items: center;
+}
+
+.hero {
     padding-bottom: 48px;
     background-color: aquamarine;
 }
-.hero-container{
+
+.container-hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 57px;
 }
-.hero-subtitle{
+.button{
+    width: 242px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;    
+    background-color: #6278B4 ;
+    margin: 32px 110px;
+    height: 62px;
+}
+.header-words{
+    color: #6278B4;
+    
+  font-family: Jost;
+font-weight: 600;
+font-size: 24px;
+
+
+}
+.header-title{
+     font-family: Jost;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+height: 103%;
+padding-top: 16px;
+padding-bottom: 16px;
+
+
+
+}
+.header-text{
+    font-family: Jost;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+padding-bottom: 34px;
+
+
+}
+
+.hero-subtitle {
     color: beige;
     font-size: 24px;
     font-weight: 600;
     padding-bottom: 16px;
 }
-.hero-title{
+
+.hero-title {
     color: azure;
     font-size: 48px;
     font-weight: 700;
     padding-bottom: 16px;
 
 }
-.hero-text{
+
+.hero-text {
     color: blueviolet;
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 32px;
 }
-.hero-link{
-    
+
+.hero-link {
+
     font-size: 20px;
     font-weight: 500;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
     background-color: ;
-    padding:16px 22px ;
+    padding: 16px 22px;
     display: inline-block;
     border-radius: 30px;
 
 
 }
-
-
