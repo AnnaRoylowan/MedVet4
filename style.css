@@ -28,7 +28,7 @@ a {
 }
 
 .container {
-    
+
     width: 1107;
     padding: 0 15px;
     margin: 0 auto;
@@ -79,42 +79,46 @@ a {
     align-items: center;
     gap: 57px;
 }
-.button{
+
+.button {
     width: 242px;
     border-radius: 30px;
     color: white;
-    font-size: 18px;    
-    background-color: #6278B4 ;
+    font-size: 18px;
+    background-color: #6278B4;
     margin: 32px 110px;
     height: 62px;
 }
-.header-words{
+
+.header-words {
     color: #6278B4;
-    
-  font-family: Jost;
-font-weight: 600;
-font-size: 24px;
 
-
-}
-.header-title{
-     font-family: Jost;
-font-weight: 700;
-font-style: Bold;
-font-size: 48px;
-height: 103%;
-padding-top: 16px;
-padding-bottom: 16px;
-
-
-
-}
-.header-text{
     font-family: Jost;
-font-weight: 500;
-font-style: Medium;
-font-size: 20px;
-padding-bottom: 34px;
+    font-weight: 600;
+    font-size: 24px;
+
+
+}
+
+.header-title {
+    font-family: Jost;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    height: 103%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+
+
+}
+
+.header-text {
+    font-family: Jost;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    padding-bottom: 34px;
 
 
 }
@@ -153,100 +157,166 @@ padding-bottom: 34px;
 
 
 }
+
 /* section 2 */
-.services-list{
+.services-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 155px;
-    
+
 }
-span{
-    color:#6278B4 ;
-    
+
+span {
+    color: #6278B4;
+
 }
-.services-title{
+
+.services-title {
     padding: 24px;
-    
+
     text-align: center;
-     border-bottom: 4px solid hsla(224, 35%, 54%, 1);
-     width: 1000px;
-     
+    border-bottom: 4px solid hsla(224, 35%, 54%, 1);
+    width: 1000px;
+
 }
-.services-wrap{
+
+.services-wrap {
     font-family: Jost;
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-width: 229px ;
-height: 63px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    width: 229px;
+    height: 63px;
 
 
 }
-.services-img{
+
+.services-img {
     width: 49px;
-height: 49px
+    height: 49px
+}
+
+.services-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+
 
 }
-.services-subtitle{
-font-weight: 400;
-font-size: 24px;
 
-
-}
 /* section 3 */
- .third{
+.third {
     display: flex;
     justify-content: space-between;
     gap: 130px;
     align-items: center;
-    background-color: #DDF9FF ;
+    background-color: #DDF9FF;
 }
-.third-title{
-    color:  #6278B4;
+
+.third-title {
+    color: #6278B4;
     font-family: Jost;
-font-weight: 900;
-font-style: Black;
-font-size: 48px;
-padding-bottom: 28px;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 48px;
+    padding-bottom: 28px;
 }
-.third-text{
-font-family: Jost;
-font-weight: 500;
-font-size: 20px;
-width:294px ;
-height:145px ;
+
+.third-text {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 20px;
+    width: 294px;
+    height: 145px;
 
 
 }
-.third-container{
+
+.third-container {
     padding: 201px 130px 217px 255px;
     width: 294;
-height: 145;
+    height: 145;
 
 
 }
+
 /* section 4 */
-.specialists-list{
+.specialists-list {
     display: flex;
     justify-content: center;
     gap: 32px;
+
 }
-.specialists-img{
+
+.specialists-img {
     width: 352;
-height: 448;
-top: 1852px;
-left: 160px;
+    height: 448;
+
+
 
 
 
 }
-.specialists-title{
+
+.specialists-title {
     text-align: center;
     font-family: Jost;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 48px;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 48px;
 
 
+}
+
+.specialists-text {
+    font-family: Jost;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.specialists-item {}
+
+.footer-container {
+    background-color: rgba(83, 83, 83, 1);
+    width: 1440;
+    height: 781;
+
+
+    ;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding-bottom: 73px;
+}
+
+img {
+    padding: 42px;
+    padding-left: 160px;
+    
+
+
+    
+
+}
+
+.footer-title {
+    padding-left: 160px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.footer-list {
+    padding-left: 160px;
 }
